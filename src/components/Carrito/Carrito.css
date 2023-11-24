@@ -1,0 +1,150 @@
+/* Carrito.css */
+
+
+
+/* Carrito.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .carrito-fullscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #566573;
+  }
+  
+  .carrito-container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000;
+  }
+  /* ... (resto de tu CSS) */
+  
+
+  .carrito-header {
+    background-color: #566573;
+    color: black;
+    padding: 10px;
+  }
+
+  .carrito-header .nav-link {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  /* ... (resto de tu CSS) */
+  
+
+
+
+
+
+  
+  .carrito-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .carrito-header .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .carrito-header .nav-link {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  .carrito-header .navbar-toggler-icon {
+    border-color: #000;
+  }
+  
+  .carrito-header .navbar-toggler-icon:focus {
+    outline: none;
+  }
+  
+  .carrito-header .navbar-toggler-icon:hover {
+    cursor: pointer;
+  }
+  
+  .carrito-header .nav-link:hover {
+    color: #00a400;
+  }
+  
+  .carrito-header .nav-link.active {
+    font-weight: bold;
+    color: #00a400;
+  }
+  
+  .carrito-header .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .carrito-header .navbar-nav {
+    align-items: center;
+  }
+  
+  .productos-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .producto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .producto-info {
+    flex-grow: 1;
+  }
+  
+  .producto-nombre {
+    font-weight: bold;
+  }
+  
+  .producto-precio {
+    color: #00a400;
+  }
+  
+  .quitar-button {
+    background-color: transparent;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .quitar-button:hover {
+    text-decoration: underline;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .comprar-button {
+    background-color: #00a400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .comprar-button:hover {
+    background-color: #009200;
+  }
+  
